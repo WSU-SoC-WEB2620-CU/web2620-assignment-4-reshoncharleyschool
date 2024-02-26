@@ -3,14 +3,186 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>A04: Combining Grid & Flexbox</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+  <header>
+    Marketing Site
+  </header>
+  <nav>
+    <ul class="mainNav">
+      <li><a href="">One</a></li>
+      <li><a href="">Two</a></li>
+      <li><a href="">Three</a></li>
+      <li><a href="">Four</a></li>
+      <li><a href="">Five</a></li>
+      <li><a href="">Six</a></li>
+    </ul>
+  </nav>
+  <div class="jumbotron">
+    <div class="leftSide">
+      <h1>Jumbotron</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odio alias voluptates perferendis nemo accusantium id sint, cum, ex officia molestias minima quia magnam repellendus consectetur amet similique, reprehenderit esse.</p>
+      <button class="cta">Learn More</button>
+    </div>
+    <div class="rightSide">
+      <div class="box">
+        <div class="ball"></div>
+      </div>
+      <h1>Hover over ball</h1>
+      <button class="press">Press Me</button>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam officiis nostrum numquam quos dignissimos, consequuntur libero laboriosam. Harum, sunt?</p>
+    </div>
+  </div>
+
+  <main>
+    <h2 class="ncTitle">Our Newest Products</h2>
+    <section class="newProd">
+      <div class="newCard">
+        <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" class="ncImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ncPrice">$400</p> <button class="ncBuy">Buy</button>
+      </div>
+      <div class="newCard">
+        <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" class="ncImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ncPrice">$400</p> <button class="ncBuy">Buy</button>
+      </div>
+      <div class="newCard">
+        <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" class="ncImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ncPrice">$400</p> <button class="ncBuy">Buy</button>
+      </div>
+      <div class="newCard">
+        <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" class="ncImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ncPrice">$400</p> <button class="ncBuy">Buy</button>
+      </div>
+    </section>
+
+    <section class="deal">
+      <h3>Really big special this week on items.</h3>
+    </section>
+
+    <h2>Some Other Neat Products</h2>
+    <section class="otherProd">
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+      <div class="OtherCard">
+        <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ice cream" class="ocImg"> <p>Nulla At Nulla Justo,Eget</p> <p class="ocPrice">$400</p> <button class="ocBuy">Buy</button>
+      </div>
+    </section>
+
+    <section class="topProd">
+      <div class="cols">
+        <h4>Top Products</h4>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols">
+        <h4>Top Products</h4>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols">
+        <h4>Top Products</h4>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+        <div class="TpCard">
+          <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ramen" class="tpImg"> 
+          <div class="tpText">
+            <h4>Nunc Eu Ullamcorper Orci</h4>
+            <p>Lorem ipsum dcere numquam praesentium. Voluptatum, totam corrupti? Sapieribus tempore suscipit, accusantium</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="fInfo">
+      <p class="fText">oluptatibus sed, itaque, alias, fugiat a pariatur commodi nesc</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam consequatur adipisci voluptatibus sed, itaque, alias, fugiat a pariatur commodi nesciunt optio nam cumque aliquam quia? Ipsum accusamus hic amet asperiores?</p>
+    </div>
+
+    <div class="col1">
+      <ul>
+        <li><a href="">One</a></li>
+        <li><a href="">Two</a></li>
+        <li><a href="">Three</a></li>
+        <li><a href="">Four</a></li>
+      </ul>
+    </div>
+    <div class="col2">
+      <ul>
+        <li><a href="">Five</a></li>
+        <li><a href="">Six</a></li>
+        <li><a href="">Seven</a></li>
+        <li><a href="">Eight</a></li>
+      </ul>
+    </div>
+  </footer>
+
 <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
